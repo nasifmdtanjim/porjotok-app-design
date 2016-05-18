@@ -1,0 +1,12 @@
+[
+	{
+		"id": 1,
+		"title": "Summary",
+		"name": "summary"
+	},
+	{
+		"id": 2,
+		"title": "Complete Booking",
+		"name": "complete_booking"
+	}
+]

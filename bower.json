@@ -1,0 +1,27 @@
+{
+	"name": "porjotok-app-design",
+	"authors": [
+		"nasif-md-tanjim-m4 <nasif.tanjim@metafour.com>"
+	],
+	"description": "Porjotok App Design",
+	"main": "index.html",
+	"keywords": [
+		"Porjotok",
+		"App",
+		"Design"
+	],
+	"license": "MIT",
+	"homepage": "",
+	"private": true,
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"angular-ui-router": "^0.2.18",
+		"jquery": "1.9.1 - 2"
+	}
+}

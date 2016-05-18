@@ -1,0 +1,12 @@
+<div class="row">
+	<div class="col-xs-3 col-md-2 well well-sm">
+		<ul class="nav nav-pills nav-stacked">
+			<li><a ui-sref="pages.list">All Pages</a></li>
+			<li ng-repeat="page in pages | limitTo: 2" ui-sref-active="active">
+				<a ui-sref="pages.detail({pageId:page.id})">{{page.title}}</a>
+			</li>
+		</ul>
+		<hr>
+	</div>
+	<div class="ui-view col-xs-9 col-md-10"></div>
+</div>

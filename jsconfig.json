@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "es6",
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"charset": "utf8",
+		"experimentalDecorators": true,
+		"forceConsistentCasingInFileNames": true,
+		"locale": "en-us",
+		"newLine": "LF",
+		"pretty": true,
+		"removeComments": true,
+		"outFile": "build",
+		"sourceMap": true
+	},
+	"exclude": [
+		"node_modules",
+		"webpack",
+		"webpack-dev-server",
+		"bower",
+		"ember",
+		"jspm",
+		"typings"
+	],
+	"compileOnSave": true
+}
