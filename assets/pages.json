@@ -1,12 +1,17 @@
 [
 	{
-		"id": 1,
+		"id": 0,
 		"title": "Summary",
 		"name": "summary"
 	},
 	{
-		"id": 2,
+		"id": 1,
 		"title": "Complete Booking",
 		"name": "complete_booking"
+	},
+	{
+		"id": 2,
+		"title": "Booking Page",
+		"name": "booking_page"
 	}
 ]
