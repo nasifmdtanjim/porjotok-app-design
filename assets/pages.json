@@ -1,17 +1,47 @@
 [
 	{
 		"id": 0,
+		"title": "Home",
+		"name": "home"
+	},
+	{
+		"id": 1,
+		"title": "Destination Select",
+		"name": "destination_select"
+	},
+	{
+		"id": 2,
+		"title": "Hotel List",
+		"name": "hotel_list"
+	},
+	{
+		"id": 3,
+		"title": "Hotel List with No Data",
+		"name": "hotel_list_with_no_data"
+	},
+	{
+		"id": 4,
+		"title": "Hotel Details",
+		"name": "hotel_details"
+	},
+	{
+		"id": 5,
+		"title": "Booking Page",
+		"name": "booking_page"
+	},
+	{
+		"id": 6,
 		"title": "Summary",
 		"name": "summary"
 	},
 	{
-		"id": 1,
+		"id": 7,
 		"title": "Complete Booking",
 		"name": "complete_booking"
 	},
 	{
-		"id": 2,
-		"title": "Booking Page",
-		"name": "booking_page"
+		"id": 8,
+		"title": "Booking Details",
+		"name": "booking_details"
 	}
 ]
