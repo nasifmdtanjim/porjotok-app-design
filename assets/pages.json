@@ -27,7 +27,7 @@
 		"id": 4,
 		"title": "Hotel Details",
 		"name": "hotel_details",
-		"counter": 1
+		"counter": 2
 	},
 	{
 		"id": 5,
@@ -45,12 +45,12 @@
 		"id": 7,
 		"title": "Complete Booking",
 		"name": "complete_booking",
-		"counter": 1
+		"counter": 2
 	},
 	{
 		"id": 8,
 		"title": "Booking Details",
 		"name": "booking_details",
-		"counter": 1
+		"counter": 2
 	}
 ]
