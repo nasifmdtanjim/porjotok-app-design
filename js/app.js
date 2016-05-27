@@ -33,15 +33,27 @@ angular.module('app', ['ui.router', 'pages.controllers'])
 
 		.state('pages.detail', {
 			url: '/{pageName}',
-			templateUrl: 'templates/pages.details.html',
-			controller: function ($scope, $stateParams, Pages) {
-				Pages.get($stateParams.pageName).then(function (data) {
-					$scope.getTimes = new Array(data.counter);
-					$scope.images = {
-						old: `assets/images/pages/${data.name}/${data.name}`,
-						new: `assets/images/pages/${data.name}/${data.name}`
-					};
-				});
+			views: {
+				'': {
+					templateUrl: 'templates/pages.details.html',
+					controller: function ($scope, $stateParams, Pages) {
+						Pages.get($stateParams.pageName).then(function (data) {
+							$scope.getTimes = new Array(data.counter);
+							$scope.images = {
+								old: `assets/images/pages/${data.name}/${data.name}`,
+								new: `assets/images/pages/${data.name}/${data.name}`
+							};
+						});
+					},
+				},
+				'changes@': {
+					templateUrl: 'templates/changes.html',
+					controller: function ($scope, $stateParams, Pages) {
+						Pages.get($stateParams.pageName).then( (data) => {
+							$scope.changes = data.changes;
+						});
+					}
+				}
 			}
 		})
 })

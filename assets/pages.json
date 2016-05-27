@@ -3,54 +3,63 @@
 		"id": 0,
 		"title": "Home",
 		"name": "home",
+		"changes": ["Datepicker color"],
 		"counter": 2
 	},
 	{
 		"id": 1,
 		"title": "Destination Select",
 		"name": "destination_select",
+		"changes": ["Clear button", "Suggested destinations", "Destination thumbnails"],
 		"counter": 1
 	},
 	{
 		"id": 2,
 		"title": "Hotel List",
 		"name": "hotel_list",
+		"changes": ["Price alignment", "No filter button if only 1 hotel is available", "Title color blue"],
 		"counter": 2
 	},
 	{
 		"id": 3,
 		"title": "Hotel List with No Data",
 		"name": "hotel_list_with_no_data",
+		"changes": ["Suggested destinations", "No filter button", "Verbose message"],
 		"counter": 1
 	},
 	{
 		"id": 4,
 		"title": "Hotel Details",
 		"name": "hotel_details",
+		"changes": ["Title color blue", "Hotel description golden color to black", "Price on same line"],
 		"counter": 2
 	},
 	{
 		"id": 5,
 		"title": "Booking Page",
 		"name": "booking_page",
+		"changes": ["Button @ bottom"],
 		"counter": 1
 	},
 	{
 		"id": 6,
 		"title": "Summary",
 		"name": "summary",
+		"changes": ["Room to rooms when plural", "<th> bold", "Button no white area", "Taka symbol"],
 		"counter": 1
 	},
 	{
 		"id": 7,
 		"title": "Complete Booking",
 		"name": "complete_booking",
+		"changes": ["Font size reduce", "card", "Smile", "Table alignment", "Button no white area", "Calendar add"],
 		"counter": 2
 	},
 	{
 		"id": 8,
 		"title": "Booking Details",
 		"name": "booking_details",
+		"changes": ["Singular/plural", "Table", "<th> bold"],
 		"counter": 2
 	}
 ]

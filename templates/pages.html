@@ -3,10 +3,13 @@
 		<ul class="nav nav-pills nav-stacked">
 			<li><a ui-sref="pages.list">All Pages</a></li>
 			<li ng-repeat="page in pages" ui-sref-active="active">
-				<a ui-sref="pages.detail({pageName:page.name})">{{page.title}}</a>
+				<a ui-sref="pages.detail({pageName:page.name})">{{::page.title}}</a>
 			</li>
 		</ul>
 		<hr>
+		<ul class="nav nav-pills nav-stacked">
+			<li><a id="changesLink" ng-click="scrollTo('changes')">Changes</a></li>
+		</ul>
 	</div>
 	<div class="ui-view col-xs-9 col-md-10"></div>
 </div>
