@@ -2,46 +2,55 @@
 	{
 		"id": 0,
 		"title": "Home",
-		"name": "home"
+		"name": "home",
+		"counter": 2
 	},
 	{
 		"id": 1,
 		"title": "Destination Select",
-		"name": "destination_select"
+		"name": "destination_select",
+		"counter": 1
 	},
 	{
 		"id": 2,
 		"title": "Hotel List",
-		"name": "hotel_list"
+		"name": "hotel_list",
+		"counter": 1
 	},
 	{
 		"id": 3,
 		"title": "Hotel List with No Data",
-		"name": "hotel_list_with_no_data"
+		"name": "hotel_list_with_no_data",
+		"counter": 2
 	},
 	{
 		"id": 4,
 		"title": "Hotel Details",
-		"name": "hotel_details"
+		"name": "hotel_details",
+		"counter": 1
 	},
 	{
 		"id": 5,
 		"title": "Booking Page",
-		"name": "booking_page"
+		"name": "booking_page",
+		"counter": 1
 	},
 	{
 		"id": 6,
 		"title": "Summary",
-		"name": "summary"
+		"name": "summary",
+		"counter": 1
 	},
 	{
 		"id": 7,
 		"title": "Complete Booking",
-		"name": "complete_booking"
+		"name": "complete_booking",
+		"counter": 1
 	},
 	{
 		"id": 8,
 		"title": "Booking Details",
-		"name": "booking_details"
+		"name": "booking_details",
+		"counter": 1
 	}
 ]

@@ -36,9 +36,10 @@ angular.module('app', ['ui.router', 'pages.controllers'])
 			templateUrl: 'templates/pages.details.html',
 			controller: function ($scope, $stateParams, Pages) {
 				Pages.get($stateParams.pageName).then(function (data) {
+					$scope.getTimes = new Array(data.counter);
 					$scope.images = {
-						old: `assets/images/pages/${data.name}/${data.name}_old.png`,
-						new: `assets/images/pages/${data.name}/${data.name}_new.png`
+						old: `assets/images/pages/${data.name}/${data.name}`,
+						new: `assets/images/pages/${data.name}/${data.name}`
 					};
 				});
 			}
