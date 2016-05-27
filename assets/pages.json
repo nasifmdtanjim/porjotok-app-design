@@ -15,13 +15,13 @@
 		"id": 2,
 		"title": "Hotel List",
 		"name": "hotel_list",
-		"counter": 1
+		"counter": 2
 	},
 	{
 		"id": 3,
 		"title": "Hotel List with No Data",
 		"name": "hotel_list_with_no_data",
-		"counter": 2
+		"counter": 1
 	},
 	{
 		"id": 4,
