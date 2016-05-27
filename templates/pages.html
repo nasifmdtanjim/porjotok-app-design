@@ -3,7 +3,7 @@
 		<ul class="nav nav-pills nav-stacked">
 			<li><a ui-sref="pages.list">All Pages</a></li>
 			<li ng-repeat="page in pages" ui-sref-active="active">
-				<a ui-sref="pages.detail({pageId:page.id})">{{page.title}}</a>
+				<a ui-sref="pages.detail({pageName:page.name})">{{page.title}}</a>
 			</li>
 		</ul>
 		<hr>

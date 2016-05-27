@@ -1,6 +1,6 @@
 angular.module('starter.factories', ['starter.utils.service'])
 
-.factory('pages', ['$http', 'utils', function ($http, utils) {
+.factory('Pages', ['$http', 'utils', function ($http, utils) {
 	var pages = $http.get('assets/pages.json').then(function (response) {
 		return response.data;
 	});
@@ -10,9 +10,9 @@ angular.module('starter.factories', ['starter.utils.service'])
 			return pages;
 		},
 
-		get: function (id) {
+		get: function (name) {
 			return pages.then(function(data) {
-				return utils.findById(data, id);
+				return utils.findByName(data, name);
 			})
 		}
 	};
