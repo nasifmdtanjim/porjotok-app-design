@@ -61,5 +61,12 @@
 		"name": "booking_details",
 		"changes": ["Singular/plural", "Table", "<th> bold"],
 		"counter": 2
+	},
+	{
+		"id": 9,
+		"title": "Favourites",
+		"name": "favourites",
+		"changes": ["Store favourite hotels to cordova-sqlite", "Favourite directive to encapsulate functionalities and DOM manipulation(recommended by angular)", "Replaced old localStorage favourites functionalities", "Parse to JSON when retrieving data from sqlite"],
+		"counter": 1
 	}
 ]
